@@ -2,24 +2,60 @@
 <html>
     <head>
         <style>
-            
+            .iconsize {
+                position: relative;
+                top: 10px;
+                width: 25px;
+                height: 25px;
+                padding: 5px;
+            }
+            header {
+                text-align: right;
+                padding: 8px;
+                margin:auto;
+            }
+            div {
+                width: 100%;
+                height: 150px;
+                text-align: center;
+                
+            }
+            footer {
+                background-color: #eeeeee;
+                padding: 5px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+            hr {
+                position: relative;
+                top: 390px;
+            }
+            .right {
+                position: relative;
+                right: -900px;
+            }
+
         </style>
     </head>
     <body>
         <header>
             <a href="#">Gmail</a>
             <a href="#">Images</a>
-            <img src="https://icons.iconarchive.com/icons/alecive/flatwoken/256/Apps-Google-Chrome-App-List-icon.png">
-            <img src="https://image.flaticon.com/icons/png/128/2702/2702643.png">
+            <img class="iconsize" src="https://icons.iconarchive.com/icons/alecive/flatwoken/256/Apps-Google-Chrome-App-List-icon.png">
+            <img class="iconsize" src="https://image.flaticon.com/icons/png/128/2702/2702643.png">
         </header>
         <div>
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            <br><br>
             <input type="text" placeholder="Search">
+            <br><br>
             <button  type="submit">Google Search</button>
             <button type="submit">I'm feeling lucky</button>
+            <br><br>
             <a href="">Get COVID-19 facts from top health officials</a>
-            <p>Google offered in: </p>
-            <a href="">English</a>
+            <p>Google offered in: <a href="">English</a></p>
+            
         </div>
 
         <hr>
@@ -30,9 +66,9 @@
             <a href="">Advertising</a>
             <a href="">Business</a>
             <a href="">How Search works</a>
-            <a href="">Privacy</a>
-            <a href="">Terms</a>
-            <a href="">Settings</a>
+            <a class="right" href="">Privacy</a>
+            <a class="right" href="">Terms</a>
+            <a class="right" href="">Settings</a>
 
         </footer>
     </body>
